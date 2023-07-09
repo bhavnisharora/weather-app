@@ -101,6 +101,7 @@ h1 {
   margin-bottom: 60px;
   /* color: rgb(10, 163, 163); */
 }
+
 @media only screen and (max-width: 600px) {
   .box {
     width: 480px;
