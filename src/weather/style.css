@@ -96,13 +96,15 @@ button:hover {
 h1 {
   letter-spacing: 1px;
   font-style: italic;
+  text-align: ;
   font-family: "arial";
   margin-bottom: 60px;
   /* color: rgb(10, 163, 163); */
 }
 @media only screen and (max-width: 600px) {
   .box {
-    width: 500px;
+    width: 480px;
+    justify-content: center;
   }
   .two-sections {
     gap: 10px;
@@ -111,7 +113,8 @@ h1 {
 
 @media only screen and (max-width: 480px) {
   .box {
-    width: 400px;
+    width: 380px;
+    justify-content: center;
   }
   .two-sections {
     margin: auto 15px;
