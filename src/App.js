@@ -1,10 +1,10 @@
-import './App.css';
-import Tempapp from './Tempapp'
+import "./App.css";
+import Temp from "./weather/Temp";
 function App() {
   return (
-<>
-<Tempapp />
-</>
+    <>
+      <Temp />
+    </>
   );
 }
 

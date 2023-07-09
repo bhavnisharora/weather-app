@@ -1,0 +1,119 @@
+.container {
+  background-color: #ccc;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  margin-top: 20px;
+  height: 400px;
+  width: 600px;
+  box-shadow: 3px 3px 8px 2px rgba(0, 0, 0, 0.2);
+  /* background-color: black; */
+  background-color: #ccc;
+}
+
+.icon i {
+  background-color: white;
+  color: black;
+  height: 200px;
+  width: 100%;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.weather-info {
+  /* margin: 10px 0; */
+  background-color: black;
+  color: white;
+  height: 100px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 8px;
+}
+.weather-container {
+  display: flex;
+}
+.description {
+  font-size: 20px;
+}
+.temperature {
+  font-size: 40px;
+}
+.date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-color: rgb(82, 221, 221);
+  color: white;
+  font-size: 30px;
+  height: 100px;
+  padding: 8px;
+  /* font-weight: bold; */
+}
+.two-sections {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 13px;
+  margin: 10px 30px;
+}
+.two-sections i {
+  color: rgb(3, 110, 110);
+  font-weight: bold;
+}
+.temp-info {
+  display: flex;
+}
+.searchTerm {
+  width: 220px;
+  padding: 5px;
+  outline: none;
+  color: rgb(3, 110, 110);
+  font-weight: bold;
+  font-family: "helvetica";
+}
+button {
+  padding: 7px;
+  width: 70px;
+  text-transform: capitalize;
+  background-color: rgb(10, 163, 163);
+  color: white;
+  border: none;
+}
+button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+h1 {
+  letter-spacing: 1px;
+  font-style: italic;
+  font-family: "arial";
+  margin-bottom: 60px;
+  /* color: rgb(10, 163, 163); */
+}
+@media only screen and (max-width: 600px) {
+  .box {
+    width: 500px;
+  }
+  .two-sections {
+    gap: 10px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .box {
+    width: 400px;
+  }
+  .two-sections {
+    margin: auto 15px;
+  }
+}
