@@ -101,6 +101,7 @@ h1 {
   margin-bottom: 60px;
   /* color: rgb(10, 163, 163); */
 }
+
 @media only screen and (max-width: 600px) {
   .box {
     width: 480px;
@@ -108,6 +109,9 @@ h1 {
   }
   .two-sections {
     gap: 10px;
+  }
+  h1 {
+    text-align: center;
   }
 }
 
@@ -119,4 +123,14 @@ h1 {
   .two-sections {
     margin: auto 15px;
   }
+  h1 {
+    text-align: center;
+  }
+  .description {
+    font-size: 13px;
+  }
+  .temperature {
+    font-size: 35px;
+  }
 }
+
